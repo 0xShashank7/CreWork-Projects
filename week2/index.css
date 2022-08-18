@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom left, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 100%);
+    font-family: 'Clash Display', sans-serif;
+    width: 600px;
+    height: 100vh;
+    margin:  auto;
+    padding: 50px;
+    text-align: center;
+ }
+
+.google h2{
+    margin: auto;
+    margin-bottom: 20px; 
+    font-weight: 700;
+    width: 200px;
+    /* border: 2px solid black; */
+    /* box-shadow: 5px 5px 10px black; */
+    padding: 5px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+}
+/* .google{
+    display: ;
+} */
+
+.google button{
+    font-size: 14px;
+    font-weight: 450;
+    padding: 4px 25px;
+    font-family: 'Clash Display', sans-serif;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    font-weight: 490;
+}
+.google button img{
+    vertical-align: middle;
+}
+.details h3{
+    text-align: left;
+    margin-left: 115px;
+    padding: 9px;
+    font-weight: 600;
+    color: #650d1b;
+}
+.details input{
+    font-family: 'Clash Display', sans-serif;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 250px;
+}
+.details input:hover{
+    border-color: #d90429;
+}
+.details{
+    margin-bottom: 10px;
+}
+.details h2{
+    color: rgb(183, 180, 180);
+}
+
+.remember{
+    margin: 10px;
+    padding: 5px;
+    color: #650d1b;
+}
+
+.submit{
+    width: 250px;
+    margin-top: 5px;
+    padding: 10px ;
+    border: 1px solid #d90429;
+    background-color: #d90429;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Clash Display', sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 3px 3px 7px black;
+}
+input[type=checkbox] {
+  accent-color: #d90429;
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    letter-spacing: 1px;
+    transition: 0.7s;
+    box-shadow: 7px 7px 7px black;
+}
+#forgot{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #650d1b;
+}
+
+.end h2{
+    color:  rgb(183, 180, 180);
+    margin-bottom: 10px;
+}
+.end h4{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.end a{
+    text-decoration: none;
+    color: rgb(228, 25, 25);
+    font-weight: 640;
+}
+
+.whole{
+    margin: 10px 0;
+    padding: 20px 0px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to bottom left, #b8235a 0%, white 100%);
+    box-shadow: 15px 15px  10px;
+    border-radius: 5px;
+}

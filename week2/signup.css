@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom left, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 100%);
+    font-family: 'Clash Display', sans-serif;
+    width: 600px;
+    height: 100vh;
+    margin:  auto;
+    padding: 50px;
+    text-align: center;
+}
+.signup h2{
+    /* margin-right: 100px; */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+.signup button{
+    font-size: 14px;
+    font-weight: 490;
+    padding: 4px 25px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    color: #650d1b;
+    font-family: 'Clash Display', sans-serif;
+}
+.signup button img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+button:hover{
+    letter-spacing: 1px;
+    transition: 0.7s;
+    box-shadow: 7px 7px 7px black;
+}
+.details h3{
+    text-align: left;
+    margin-left: 115px;
+    padding: 9px;
+    font-weight: 600;
+    color: #650d1b;
+}
+.details input{
+    padding: 7px;
+    font-family: 'Clash Display', sans-serif;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 250px;
+}
+.details input:hover{
+    border-color: #d90429;
+}
+.details{
+    margin-bottom: 10px;
+}
+.details h2{
+    color: rgb(183, 180, 180);
+}
+.tc{
+    margin: 10px;
+    padding: 5px;
+    
+}
+input[type=checkbox] {
+    accent-color: #d90429;
+  }
+.sign{
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px ;
+    border: 1px solid #d90429;
+    background-color: #d90429;
+    color: white;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.end h2{
+    color: rgb(235, 227, 227);
+    font-family: 'Clash Display', sans-serif;;
+    margin-bottom: 13px;
+}
+.end h4{
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.end a{
+    text-decoration: none;
+    color: rgb(228, 25, 25);
+    font-weight: 600;
+}
+#links a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(225, 68, 68);
+}
+
+.whole{
+    margin: 10px 0;
+    padding: 20px 0px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to bottom left, #b8235a 0%, white 100%);
+    box-shadow: 15px 15px  10px;
+    border-radius: 5px;
+}
