@@ -52,3 +52,6 @@ body{
     font-size: 1.05rem;
     transition: 0.6s;
 }
+#name{
+    align-items: center;
+}
