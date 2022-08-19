@@ -5,12 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,400&display=swap" rel="stylesheet">
 </head>
+<style>
+    .main{
+        height: 96vh;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #6699cc;
+        color: #fff275;
+        font-family: 'Cabinet Grotesk', sans-serif;
+    }
+    .main a{
+        border: 3px solid white;
+        padding: 5px 20px;
+        border-radius: 5px;
+        color: inherit;
+        font: inherit;
+        margin: 10px;
+        text-decoration: none;
+        font-weight: 550;
+        font-size: 1.1rem;
+        transition: 0.5s;
+    }
+    .main a:hover{
+        transition: 0.5s;
+        padding: 10px 30px;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px gray;
+        /* text-shadow: 5px 5px 5px black; */
+    }
+</style>
 <body>
-    <h1>Crework Links</h1>
+    <div class="main">
+    <h1>Crework Projects</h1>
     <a href="./week1/index.html">Week1</a>
     <a href="./week2/index.html">Week2</a>
     <a href="./week4/login/index.html">Week4</a>
     <a href="./week5/index.html">Week5</a>
+</div>
 </body>
 </html>
