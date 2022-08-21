@@ -1,5 +1,7 @@
 Week5 Assignment - Random color generator
 
+LIVE LINK : https://crework-projects.vercel.app/week5/index.html
+
 Homepage of the site
 ![image](https://user-images.githubusercontent.com/80317188/185789606-ac87225d-5327-403d-8791-e2726694cb47.png)
 
