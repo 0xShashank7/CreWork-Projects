@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colors Generator</title>
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="container">
-
-        <!--         
-        <div class="color1">
-befubufb
-        </div>
-        <div class="color2">
-nksdwkwsdkn
-        </div>
-        <div class="color3">
-nbkswdnbswk
-        </div>
-        <div class="color4">
-shvisb
-        </div> -->
-
-        
-    </div>
-
-    <div class="color">
-        <h2 id="name"></h2>
-        <button class="btn" onclick="colorGenerator()">Generate color</button>
-    </div>
+    <link rel="stylesheet" href="./index.css"></head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+    <body>
+        <h2 id="header">Random Color Palette Generator</h2>
+        <main id="container-main">
+            <section id="section-main">
+                <div class="container container-1">
+                    <p class="hex-output-1"></p>
+                    <p class="rgb-output-1"></p>
+                </div>
+                <div class="container container-2">
+                    <p class="hex-output-2"></p>
+                    <p class="rgb-output-2"></p>
+                </div>
+                <div class="container container-3">
+                    <p class="hex-output-3"></p>
+                    <p class="rgb-output-3"></p>
+                </div>
+                <div class="container container-4">
+                    <p class="hex-output-4"></p>
+                    <p class="rgb-output-4"></p>
+                </div>
+                <div class="container container-5">
+                    <p class="hex-output-5"></p>
+                    <p class="rgb-output-5"></p>
+                </div>
+            </section>
+            <button id="btn-gnrt">Generate</button>
+        </main>
+    
+    
 
 <script src="./index.js"></script>
 </body>
