@@ -9,18 +9,16 @@
 </head>
 <style>
     *{
-        margin: 5px;
+        margin: 0px;
         padding: 0;
         box-sizing: border-box;
     }
     .main{
-        height: 97vh;
-        margin: 0 auto;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
-        border: 2px solid black;
+        margin: 0 auto;
         border-radius: 10px;
         background-color: #6699cc;
         color: #fff275;
@@ -40,19 +38,59 @@
     }
     .main a:hover{
         transition: 0.5s;
-        padding: 10px 30px;
+        padding: 10px 20px;
         font-weight: 700;
         box-shadow: 5px 5px 5px gray;
-        /* text-shadow: 5px 5px 5px black; */
+    }
+    .container1{
+        background: #06f14d;
+        height: 90vh;
+        width: 1300px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 33px;
+        padding-top: 70px;
+    }
+    .container2{
+        background: #fdb210;
+        height: 70vh;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 70px;
+    }
+    .container3{
+        background: #e013b7;
+        height: 50vh;
+        width: 800px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 a{
+        width: 100px; 
+
     }
 </style>
 <body>
     <div class="main">
-    <h1>Crework Projects</h1>
-    <a href="./week1/index.html">Week1</a>
-    <a href="./week2/index.html">Week2</a>
-    <a href="./week4/login/index.html">Week4</a>
-    <a href="./week5/index.html">Week5</a>
-</div>
+        <div class="container1">
+            <div class="container2">
+                <div class="container3">
+                    <h1>Crework Projects</h1>
+                        <a href="./week1/index.html">Week1</a>
+                        <a href="./week2/index.html">Week2</a>
+                        <a href="./week4/login/index.html">Week4</a>
+                        <a href="./week5/index.html">Week5</a>
+                </div>
+            </div>
+         </div>
+    </div>
 </body>
 </html>
