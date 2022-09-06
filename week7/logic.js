@@ -8,6 +8,12 @@ const search = document.querySelector("#input")
 const weather = document.querySelector("#weather")
 const container = document.querySelector("container")
 
+form.addEventListener("submit", function(event){
+    getWeather(search.value)
+    event.preventDefault();
+    
+})
+
 const getWeather = async(city) => {
 
     weather.innerHTML = `<h2>Loading...</h2>`
@@ -31,16 +37,12 @@ const showWeather = (data) => {
     </div>
     <div>
         <h2>${data.main.temp} °C</h2>
-        <h4>${data.weather[0].main}</h4>
+        <h4 >${data.weather[0].main}</h4>
+	  <h5 style="margin-top:5px;">Humidity: ${data.main.humidity}%</h>
+	  <h5>Wind Speed: ${data.wind.speed}m/s</h5>
     </div>
     `
     
 
     
 }
-
-form.addEventListener("submit", function(event){
-    getWeather(search.value)
-    event.preventDefault();
-    
-})
