@@ -2,12 +2,13 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background: linear-gradient(to top left, #6f2dbd, #a663cc, #674f8e);
-    background-size: 1800% 1800%;
+    background-image: linear-gradient(to top left,rgb(196, 24, 196), purple, blue, rgb(138, 161, 227));
+    background-size: 1000% 1000%;
+    height: 100vh;
 
     /* -webkit-animation: bgGradient 10s ease infinite; */
     /* -moz-animation: bgGradient 31s ease infinite; */
-    animation: bgGradient 31s ease infinite; 
+    animation: bgGradient 15s ease infinite; 
 }
 
 @keyframes bgGradient {
@@ -17,10 +18,12 @@ body {
 }
 
 #intro-vid {
-    width: 100%;
+    /* width: 100vw;
+    height: 100vh; */
     height: 100vh;
+    width: 100vw;
     opacity: 1;
-    animation: fade 26s linear;
+    animation: fade1 26s linear;
     position: absolute;
 }
 
@@ -34,7 +37,7 @@ h1 {
     gap: 1rem;
 }
 
-@keyframes fade {
+@keyframes fade1 {
     0% {opacity: 1;}
     80% {opacity: 1;}
     100% {opacity: 0;}
