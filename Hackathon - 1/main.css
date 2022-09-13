@@ -23,7 +23,7 @@ body{
     /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
     /* background-image: linear-gradient(to bottom left, violet, purple, blue); */
@@ -38,9 +38,9 @@ body{
 
 
     letter-spacing: 1px;
-    width: 450px;
-    height: 500px;
-    margin: 10px auto;
+    /* width: 450px; */
+    /* height: 50%; */
+    /* margin: 10px auto; */
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
 }
@@ -49,14 +49,19 @@ body{
     50%{background-position:100% 51%}
     100%{background-position:0% 50%}
 }
-
+#xyz img{
+    width: 120px;
+    margin-bottom: 10px;
+}
 
 #title{
     display: flex;
     flex-direction: column;
     font-weight: 650;
     font-size: 4rem;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px darkblue;
+    text-transform: capitalize;
+    /* margin-bottom: 40px; */
 }
 
 #xyz h3{
@@ -64,6 +69,7 @@ body{
     margin: 20px;
     margin-bottom: 15px;
     text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px darkblue;
 }
 #xyz input{
     width: 190px;
@@ -73,7 +79,7 @@ body{
     font: inherit;
     padding: 5px 5px ;
     font-weight: 600;
-    color: black;
+    color: darkblue;
     border-radius: 5px;
 
 }
@@ -90,6 +96,7 @@ body{
     transition: 0.5s;
     cursor: pointer;
     /* border: none; */
+    margin-bottom: 20px;
 }
 #start-btn:hover{
     padding: 12px 20px ;
