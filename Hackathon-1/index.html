@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@700,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video id="intro-vid" style="display: none;">
+        <source src="./videos/kbc_video_cut1.mp4" type="video/mp4">
+    </video>
+    <main class="flex-jcc align-center">
+        <div id="xyz" class="flex-jcc align-center">
+            <img src="./images/HackerBois.png" alt="hackerBois logo">
+            <h1 id="title">
+                <span> Kaun Banega </span>
+                <span> CreworkPati </span>
+            </h1>
+            <h3 >
+                Enter your name
+            </h3>
+            <input type="text" name="username" id="username">
+            <button id="start-btn"  onclick="startGame(0)"> 
+                Launch KBC
+
+            </button>
+            <h1>💸💸💸</h1>
+            <h4>Please turn on Volume for sound effects</h4>
+            <h4>Created by 👨‍💻
+            <a href="https://github.com/suhailmshaik" target="_blank">© Suhail </a>
+            <a href="https://github.com/0xShashank7" target="_blank">© Shashank </a>
+            <a href="https://github.com/urlunaticguy" target="_blank">© Souvik </a></h4>
+        </div>
+    </main>
+    <div id="game" class="align-center">
+        <!-- image here -->
+        <div id="image" style="position: relative; z-index: -1;">
+            <img style="width: 15vw; top: -130px; left: -115px; position: absolute;" src="./images/amitabh.png" alt="" srcset="">
+        </div>
+        <div style="position: relative;">
+            <span id="timer-text">60</span>
+            <div id="prize-won">
+
+            </div>
+        </div>
+        <div id="question">
+            <div class="triangle" style="transform: rotateY(180deg);">
+                <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-28deg); width: 82px; position: absolute;left: -80px;top: 18px;"></div>
+                <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(28deg); width: 82px; position: absolute;left: -80px;top: -20px;"></div>
+            </div>
+            <div id="question-text" class="flex-jcc align-center">
+                What is the capital of India?
+            </div>
+            <div class="triangle">
+                <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(28deg); width: 82px; position: absolute;left: -80px;top: -21px;"></div>
+                <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-28deg); width: 82px; position: absolute;left: -80px;top: 19px;"></div>
+            </div>
+        </div>
+        <div id="options" class="flex-jcc">
+            <div class="options-row flex-jcc">
+
+                <div class="option-1 opt-common">
+                    <!-- option 1 -->
+                    <div class="triangle1" style="transform: rotateY(180deg);">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                    <div class="option flex-jcc align-center">Option 1</div>
+                    <div class="triangle1">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                </div>
+
+                <div class="option-2 opt-common">
+                    <!-- option 2 -->
+                    <div class="triangle1" style="transform: rotateY(180deg);">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                    <div class="option flex-jcc align-center">Option 2</div>
+                    <div class="triangle1">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="options-row flex-jcc">
+                <div class="option-3 opt-common">
+                    <!-- option 3 -->
+                    <div class="triangle1" style="transform: rotateY(180deg);">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                    <div class="option flex-jcc align-center">Option 3</div>
+                    <div class="triangle1">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                </div>
+
+                <div class="option-4 opt-common">
+                    <!-- option 4 -->
+                    <div class="triangle1" style="transform: rotateY(180deg);">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                    <div class="option flex-jcc align-center">Option 4</div>
+                    <div class="triangle1">
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(33deg); width: 46.5px; position: absolute;left: -45px;top: -13.5px;"></div>
+                        <div style="border: 1px solid goldenrod;border-radius: 0;transform: rotate(-33deg); width: 46.5px; position: absolute;left: -45px;top: 14.5px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="name">
+
+        </div>
+
+        <div id="question-info">
+
+            <div id="prize" >
+                PRIZE POOL
+            </div>
+            <div class="money">
+                Playing for $500,000
+            </div>
+            <div class="money">
+                Playing for $100,000
+            </div>
+            <div class="money">
+                Playing for $50,000
+            </div>
+            <div class="money">
+                Playing for $25,000
+            </div>
+            <div class="money">
+                Playing for $10,000
+            </div>
+            <div class="money">
+                Playing for $5000
+            </div>
+            <div class="money">
+                Playing for $3000
+            </div>
+            <div class="money"> 
+                Playing for $1500
+            </div>
+            <div class="money">
+                Playing for $1000
+            </div>
+            <div class="money">
+                Playing for $500
+            </div>
+        </div>
+    </div>
+
+    <div class="winning-screen">
+        <p class="winning-text">
+          You are now the CreworkPati <br />
+          $500,000
+        </p>
+        <button class="play-again" onclick="startGame(1)">Play again</button>
+    </div>
+      
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
