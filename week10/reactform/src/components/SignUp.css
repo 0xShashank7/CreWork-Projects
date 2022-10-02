@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom left, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 100%);
+    font-family: 'Clash Display', sans-serif;
+    /* width: 600px; */
+    height: 100vh;
+    /* margin:  auto; */
+    padding: 50px;
+    /* text-align: center; */
+ }
+
+.details label{
+    text-align: left;
+    /* margin-left: 115px; */
+    /* padding: 50px; */
+    font-weight: 600;
+    color: #650d1b;
+}
+.details input{
+    font-family: 'Clash Display', sans-serif;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 250px;
+}
+.details input:hover{
+    border-color: #d90429;
+}
+.details{
+    margin-bottom: 10px;
+}
+
+
+.submit{
+    width: 250px;
+    margin-top: 5px;
+    padding: 10px ;
+    border: 1px solid #d90429;
+    background-color: #d90429;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Clash Display', sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 3px 3px 7px black;
+}
+.submitRender{
+    width: 100px;
+    padding: 10px ;
+    border: 1px solid #d90429;
+    background-color: #d90429;color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Clash Display', sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button:hover{
+    letter-spacing: 1px;
+    transition: 0.7s;
+    box-shadow: 7px 7px 7px black;
+}
+.hello{
+    font-size: 1.5rem;
+    border: 5px solid black;
+    width: 500px;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: linear-gradient(to bottom left, #b8235a 0%, white 100%);
+    box-shadow: 15px 15px  10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 20px 0px;
+}
+form h1{
+    margin-bottom: 0px;
+}
+form span{
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
